@@ -1,0 +1,28 @@
+.header-bg {
+    background: linear-gradient(180deg, #5334B2 0%, rgba(34, 42, 62, 0) 215.97%);
+    display: flex;
+    height: 83px;
+    max-width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 32px;
+}
+
+.header-menu a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
