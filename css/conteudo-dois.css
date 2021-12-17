@@ -1,3 +1,23 @@
+#conteudo-dois {
+    padding: 0 140px;
+}
+
+.conteudo-dois {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.storytelling {
+    margin-right: 50px;
+}
+
+.storytelling img {
+    margin-left: -140px;
+    height: 530px;
+    width: 650px;
+}
+
 .storytelling p {
     font-family: 'Montserrat';
     font-weight: bold;
@@ -8,9 +28,49 @@
     text-align: center;
     letter-spacing: 0.095em;
     text-transform: uppercase; 
-    margin-top: 37px;
     padding: 0 20px;
     background-color: #019600; 
     width: 190px;
     height: 43px;
+    position: relative;
+    top: 80px;
+}
+
+.celebracao h2 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: right;
+    text-transform: uppercase;
+    color: white;
+}
+
+.celebracao p {
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    text-transform: uppercase;
+    color: white;
+}
+
+.celebracao .btn {
+    background-color: #019600;
+    width: 336px;
+    height: 63px;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    margin-bottom: 10px;
 }

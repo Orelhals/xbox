@@ -25,12 +25,14 @@
     height: 43px;
 }
 
+.produto img {
+    height: 400px;
+}
+
 .outros {
     display: flex;
     justify-content: space-between;
 }
-
-
 
 .series-x {
     display: flex;
