@@ -1,7 +1,41 @@
-.introducao-bg {
-    display: flex;
+#intro {
     background-image: url('/img/cyberpunk.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     height: 740px;
 }
+
+.introducao-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introducao-bg img {
+    height: 48px;
+    width: 197px;
+}
+
+h1, p {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 72px;
+    line-height: 88px;
+    letter-spacing: 0.3em;
+}
+
+p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+}
+
 
 
