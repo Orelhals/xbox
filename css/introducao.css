@@ -24,7 +24,7 @@
     width: 197px;
 }
 
-.introducao-bg h2, p {
+.introducao-bg h2, .introducao-bg p {
     margin: 0;
     color: white;
     font-family: 'Montserrat';

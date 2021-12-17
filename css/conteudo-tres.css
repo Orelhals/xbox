@@ -1,24 +1,21 @@
-#conteudo-dois {
-    padding: 0 140px;
+#conteudo-tres {
+    padding: 0px 40px;
+
 }
 
-.conteudo-dois {
+.conteudo-tres {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.storytelling {
-    margin-right: 50px;
-}
-
-.storytelling img {
+.sobre img {
     margin-left: -140px;
     height: auto;
     width: 650px;
 }
 
-.storytelling p {
+.conteudo-tres span {
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: 21px;
@@ -30,43 +27,45 @@
     text-transform: uppercase; 
     padding: 0 20px;
     background-color: #019600; 
-    width: 190px;
+    width: 90px;
     height: 43px;
     position: relative;
-    top: 80px;
+    bottom: 400px;
+    left: 60px;
+    color: white;
 }
 
-.celebracao h2 {
+.celebracao-tres h2 {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 48px;
     line-height: 59px;
-    text-align: right;
+    text-align: left;
     text-transform: uppercase;
     color: white;
 }
 
-.celebracao {
+.celebracao-tres {
     display: flex;
     flex-direction: column;
 }
 
-.celebracao p {
+.celebracao-tres p {
     font-family: 'Montserrat';
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
-    text-align: right;
+    text-align: left;
     text-transform: uppercase;
     color: white;
 }
 
-.celebracao .btn {
+.celebracao-tres .btn {
     background-color: #019600;
     width: 336px;
     height: 63px;
     display: flex;
-    align-self: flex-end;
+    align-self: flex-start;
     align-items: center;
     justify-content: center;
     text-decoration: none;

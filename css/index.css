@@ -3,6 +3,7 @@
 @import './introducao.css';
 @import './conteudo.css';
 @import './conteudo-dois.css';
+@import './conteudo-tres.css';
 
 html, body {
     padding: 0px;
@@ -11,5 +12,9 @@ html, body {
 
 body {
     background-color: #302f2f;
+}
+
+p {
+    color: white;
 }
 
