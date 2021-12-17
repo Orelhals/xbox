@@ -1,6 +1,10 @@
+#conteudo {
+    padding: 0 140px;
+}
+
 .conteudo-bg {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
