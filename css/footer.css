@@ -1,6 +1,10 @@
 footer {
     background-color: #019600;
     height: 205px;
+    padding: 58px 103px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 p {
@@ -17,9 +21,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 140px;
-    padding-right: 140px;
-    padding-top: 74px;
+    margin-bottom: 40px;
 }
 
 .footer-menu {
@@ -32,19 +34,34 @@ p {
 
 .footer-menu a {
     text-decoration: none;
-    font-family: 'Montserrat';
-    font-weight: 600;
+    font-family: 'Nexa';
+    letter-spacing: 0.3px;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 11px;
     color: white;
     text-transform: uppercase;
 }
 
-.sociais {
+.icones {
     display: flex;
     gap: 32px;
-    padding-top: 25px;
-    padding-left: 140px;
-    padding-right: 140px;
 }
 
+.sociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sociais p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+}
+
+footer > div {
+    width: 100%;
+}

@@ -1,5 +1,7 @@
 .header-bg {
-    background: linear-gradient(180deg, #5334B2 0%, rgba(34, 42, 62, 0) 215.97%);
+    background: linear-gradient(180deg, #5334B2 0%, rgba(34, 42, 62, 0.3) 60%, rgba(255,255,255,0) 100%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     display: flex;
     height: 83px;
     justify-content: space-between;
