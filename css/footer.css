@@ -3,6 +3,16 @@ footer {
     height: 205px;
 }
 
+p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16.1757px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: -0.493158px;
+    text-transform: uppercase;
+}
+
 .rodape {
     display: flex;
     justify-content: space-between;
@@ -35,4 +45,6 @@ footer {
     gap: 32px;
     padding-top: 25px;
     padding-left: 140px;
+    padding-right: 140px;
 }
+
