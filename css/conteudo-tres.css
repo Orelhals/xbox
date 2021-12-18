@@ -1,5 +1,5 @@
 #conteudo-tres {
-    padding: 0px 40px;
+    padding: 0px 103px;
 
 }
 
@@ -10,12 +10,13 @@
 }
 
 .sobre img {
-    margin-left: -140px;
+    margin-right: -103px;
     height: auto;
-    width: 650px;
+    margin-left: 50px;
+    width: 700px;
 }
 
-.conteudo-tres span {
+.conteudo-tres .badge {
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: 21px;
@@ -29,9 +30,6 @@
     background-color: #019600; 
     width: 90px;
     height: 43px;
-    position: relative;
-    bottom: 400px;
-    left: 60px;
     color: white;
 }
 

@@ -4,6 +4,7 @@
 @import './conteudo.css';
 @import './conteudo-dois.css';
 @import './conteudo-tres.css';
+@import './footer.css';
 
 html, body {
     padding: 0px;

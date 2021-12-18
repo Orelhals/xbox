@@ -1,5 +1,5 @@
 #conteudo-dois {
-    padding: 0 140px;
+    padding: 0 103px;
 }
 
 .conteudo-dois {
@@ -13,9 +13,10 @@
 }
 
 .storytelling img {
-    margin-left: -140px;
+    margin-left: -103px;
     height: auto;
-    width: 650px;
+    margin-bottom: -4px;
+    width: 700px;
 }
 
 .storytelling p {

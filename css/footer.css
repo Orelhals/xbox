@@ -1,22 +1,26 @@
-.header-bg {
-    background: linear-gradient(180deg, #5334B2 0%, rgba(34, 42, 62, 0) 215.97%);
+footer {
+    background-color: #019600;
+    height: 205px;
+}
+
+.rodape {
     display: flex;
-    height: 83px;
     justify-content: space-between;
     align-items: center;
     padding-left: 140px;
     padding-right: 140px;
+    padding-top: 74px;
 }
 
-.header-menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.footer-menu {
     list-style: none;
+    color: white;
+    display: flex;
     gap: 32px;
+    justify-content: center;
 }
 
-.header-menu a {
+.footer-menu a {
     text-decoration: none;
     font-family: 'Montserrat';
     font-weight: 600;
@@ -24,4 +28,11 @@
     line-height: 15px;
     color: white;
     text-transform: uppercase;
+}
+
+.sociais {
+    display: flex;
+    gap: 32px;
+    padding-top: 25px;
+    padding-left: 140px;
 }
